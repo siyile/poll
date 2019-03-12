@@ -4,7 +4,7 @@ import { receivePolls } from "./polls";
 import { setAuthedUser } from "./authedUser";
 import { showLoading, hideLoading } from 'react-redux-loading-bar';
 
-const AUTHED_ID = 'dan_abramov'
+const AUTHED_ID = 'richard'
 
 export function handleInitData(){
   return dispatch => {

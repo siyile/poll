@@ -1,8 +1,8 @@
 let users = {
-  sarah_edo: {
-    id: 'sarah_edo',
-    name: 'Sarah Drasner',
-    avatarURL: 'https://tylermcginnis.com/would-you-rather/sarah.jpg',
+  sarah: {
+    id: 'sarah',
+    name: 'Sarah Elizabeth',
+    avatarURL: 'https://randomuser.me/api/portraits/women/34.jpg',
     answers: {
       "8xf0y6ziyjabvozdd253nd": 'a',
       "6ni6ok3ym7mf1p33lnez": 'a',
@@ -11,20 +11,20 @@ let users = {
     },
     polls: ['8xf0y6ziyjabvozdd253nd', 'am8ehyc8byjqgar0jgpub9']
   },
-  tylermcginnis: {
-    id: 'tylermcginnis',
-    name: 'Tyler McGinnis',
-    avatarURL: 'https://tylermcginnis.com/would-you-rather/tyler.jpg',
+  bentley: {
+    id: 'bentley',
+    name: 'Cedrick Bentley',
+    avatarURL: 'https://randomuser.me/api/portraits/men/80.jpg',
     answers: {
       "vthrdm985a262al8qx3do": 'a',
       "xj352vofupe1dqz9emx13r": 'a',
     },
     polls: ['loxhs1bqm25b708cmbf3g', 'vthrdm985a262al8qx3do'],
   },
-  dan_abramov: {
-    id: 'dan_abramov',
-    name: 'Dan Abramov',
-    avatarURL: 'https://tylermcginnis.com/would-you-rather/dan.jpg',
+  richard: {
+    id: 'richard',
+    name: 'Richard Richards',
+    avatarURL: 'https://randomuser.me/api/portraits/men/60.jpg',
     answers: {
       "xj352vofupe1dqz9emx13r": 'a',
       "vthrdm985a262al8qx3do": 'd',
@@ -38,11 +38,11 @@ let polls = {
   "8xf0y6ziyjabvozdd253nd": {
     id: '8xf0y6ziyjabvozdd253nd',
     question: "Who is the best basketball player to ever live?",
-    author: 'sarah_edo',
+    author: 'sarah',
     timestamp: 1467166872634,
     a: {
       text: 'Michael Jordan',
-      votes: ['sarah_edo'],
+      votes: ['sarah'],
     },
     b: {
       text: 'Jimmer Fredette',
@@ -60,11 +60,11 @@ let polls = {
   "6ni6ok3ym7mf1p33lnez": {
     id: '6ni6ok3ym7mf1p33lnez',
     question: "How will we build UIs in 2019?",
-    author: 'dan_abramov',
+    author: 'richard',
     timestamp: 1468479767190,
     a: {
       text: 'React.js',
-      votes: ['sarah_edo'],
+      votes: ['sarah'],
     },
     b: {
       text: 'ReasonML',
@@ -76,13 +76,13 @@ let polls = {
     },
     d: {
       text: 'Angular.js',
-      votes: ['dan_abramov'],
+      votes: ['richard'],
     }
   },
   "am8ehyc8byjqgar0jgpub9": {
     id: 'am8ehyc8byjqgar0jgpub9',
     question: "What is your favorite book?",
-    author: 'sarah_edo',
+    author: 'sarah',
     timestamp: 1488579767190,
     a: {
       text: 'Harry Potter',
@@ -90,7 +90,7 @@ let polls = {
     },
     b: {
       text: 'Lord of the Rings',
-      votes: ['sarah_edo'],
+      votes: ['sarah'],
     },
     c: {
       text: 'To Kill a Mockingbird',
@@ -104,7 +104,7 @@ let polls = {
   "loxhs1bqm25b708cmbf3g": {
     id: 'loxhs1bqm25b708cmbf3g',
     question: "Which artist do you prefer?",
-    author: 'tylermcginnis',
+    author: 'bentley',
     timestamp: 1482579767190,
     a: {
       text: 'Chance the Rapper',
@@ -120,17 +120,17 @@ let polls = {
     },
     d: {
       text: 'Kanye West',
-      votes: ['sarah_edo'],
+      votes: ['sarah'],
     }
   },
   "vthrdm985a262al8qx3do": {
     id: 'vthrdm985a262al8qx3do',
     question: "Where is the best place to live?",
-    author: 'tylermcginnis',
+    author: 'bentley',
     timestamp: 1489579767190,
     a: {
       text: 'Eden, Utah',
-      votes: ['tylermcginnis'],
+      votes: ['bentley'],
     },
     b: {
       text: 'Kauai, HI',
@@ -142,17 +142,17 @@ let polls = {
     },
     d: {
       text: 'Other',
-      votes: ['dan_abramov'],
+      votes: ['richard'],
     }
   },
   "xj352vofupe1dqz9emx13r": {
     id: 'xj352vofupe1dqz9emx13r',
     question: "Who will win the election in 2020?",
-    author: 'dan_abramov',
+    author: 'richard',
     timestamp: 1493579767190,
     a: {
       text: 'Kanye West',
-      votes: ['dan_abramov'],
+      votes: ['richard'],
     },
     b: {
       text: 'Donald Trump',
@@ -160,7 +160,7 @@ let polls = {
     },
     c: {
       text: 'Oprah Winfrey',
-      votes: ['tylermcginnis'],
+      votes: ['bentley'],
     },
     d: {
       text: 'Dwayne Johnson',
